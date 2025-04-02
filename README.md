@@ -26,5 +26,10 @@
 # 주요 단축키 모음
 * `Ctrl + /` 한줄 주석
 * `Shift + Alt + A` 선택한 영역만 주석
-*
-*
+----
+# 처음 git을 이용한 gitHub 저장소 업로드 시 해야만하는 순서
+1. 현재 사용중 로컨 저장소를 git 저장소 등록 `git init`
+2. 위 1번 정상 등록 시 경로에 (master) 표시 출력
+3. master -> main으로 최상위 경로명칭을 변경하기 위해 `git branch -m main` 작성
+4. gitHub 저장소 생성 후 저장소 주소 복사
+5. 현재 로컬 저장소 gitHub 저장소 연결 `git remote add origin 주소붙여넣기`
